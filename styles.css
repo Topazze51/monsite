@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: darkturquoise; /* Fond darkturquoise */
+    color: #fff; /* Texte blanc */
+    padding: 10px 0;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    text-transform: uppercase; /* Mettre le texte en majuscules */
+}
+.container {
+    width: 90%; /* Réduire un peu la largeur */
+    max-width: 600px; /* Limiter la largeur maximale */
+    margin: 20px auto;
+}
+.post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h2 a {
+    color: darkturquoise; /* Titres h2 en darkturquoise */
+    text-decoration: none; /* Supprimer le soulignement par défaut */
+    transition: color 0.3s ease; /* Animation de transition */
+    text-align: center; /* Centrer le texte */
+    display: block; /* Pour permettre la largeur complète du conteneur */
+}
+h2 a:hover {
+    text-decoration: underline; /* Ajouter un trait de soulignement au survol */
+    color: #008b8b; /* Dark cyan au survol */
+}
+.video-container {
+    margin-bottom: 15px; /* Espacement entre les vidéos */
+}
+video {
+    width: 100%;
+    border-radius: 5px;
+}
+.button-container {
+    text-align: center; /* Centrer les boutons */
+}
+.button {
+    display: inline-block;
+    background-color: darkturquoise; /* Fond darkturquoise */
+    color: #fff; /* Texte blanc */
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Animation de transition */
+}
+.button:hover {
+    background-color: #008b8b; /* Dark cyan au survol */
+}
